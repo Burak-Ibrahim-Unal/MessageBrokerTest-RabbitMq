@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5L9ym5F8VOsF3g65fet7mVx+Ygk5YQ0CkEcQP4eBAdCBzd9vaBYv1Erl6nVft7ICDeU3bcJ4ocVyh0zJsAsxxQ==",
+  "dgSpecHash": "IQ6tZoiV+zaef1QlTTXuiwDzw+J1EB+jJ124T7367e3am5ipTHCJVyBLd+ERBsJN7hJKqTUYdJ4dmJmgxJHsZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Publisher\\HelloRabbitMq.Publisher.csproj",
+  "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\HelloRabbitMq.Subscriber.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Burak\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
     "C:\\Users\\Burak\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
