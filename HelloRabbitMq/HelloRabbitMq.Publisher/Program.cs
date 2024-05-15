@@ -9,11 +9,16 @@ using var connection = factory.CreateConnection();
 var channel = connection.CreateModel();
 channel.QueueDeclare("hello-queue", true, false, false);
 
-string message = "Hello RabbitMQ";
-var messageBody = Encoding.UTF8.GetBytes(message);
+Enumerable.Range(1, 50).ToList().ForEach(x =>
+{
+    string message = $"Message {x}";
+    var messageBody = Encoding.UTF8.GetBytes(message);
 
-channel.BasicPublish(string.Empty, "hello-queue", null, messageBody);
+    channel.BasicPublish(string.Empty, "hello-queue", null, messageBody);
 
-Console.WriteLine("Message is sent");
+    Console.WriteLine($"Message is sent {message}");
+});
+
+
 Console.ReadLine();
 
