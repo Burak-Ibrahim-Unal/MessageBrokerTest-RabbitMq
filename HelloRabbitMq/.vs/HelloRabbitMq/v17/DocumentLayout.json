@@ -26,11 +26,11 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\Program.cs",
               "RelativeDocumentMoniker": "HelloRabbitMq.Subscriber\\Program.cs",
-              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\Program.cs*",
-              "RelativeToolTip": "HelloRabbitMq.Subscriber\\Program.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAXAAAA",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\Program.cs",
+              "RelativeToolTip": "HelloRabbitMq.Subscriber\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:14:42.698Z",
+              "WhenOpened": "2024-05-15T08:21:01.112Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +41,9 @@
               "RelativeDocumentMoniker": "HelloRabbitMq.Publisher\\Program.cs",
               "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Publisher\\Program.cs",
               "RelativeToolTip": "HelloRabbitMq.Publisher\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:43:52.401Z",
+              "WhenOpened": "2024-05-15T08:03:56.895Z",
               "EditorCaption": ""
             }
           ]
