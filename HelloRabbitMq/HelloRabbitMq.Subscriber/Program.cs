@@ -8,11 +8,22 @@ factory.Uri = new Uri("amqps://qjozhkni:2aIy943MANWa6PCklK21ZulOvrqogC0g@roedeer
 
 using var connection = factory.CreateConnection();
 var channel = connection.CreateModel();
-channel.QueueDeclare("hello-queue", true, false, false);
+
+//durable:true = records all messages physically... We dont lose any data if we restart app.AFter messages sent,If there is not ony consumer,messages are lost
+//channel.ExchangeDeclare("logs-fanout", durable: true, type: ExchangeType.Fanout); // not necessary to create it here because we made this exhange at publisher layer
+
+// we will create random queue names per subscribers
+//var randomQueueName = //"log-database-save-queue"; //channel.QueueDeclare().QueueName; // 1 queue to feed all subscribers...Locate upper QueueBind to save permanently
+var randomQueueName = channel.QueueDeclare().QueueName;
+
+//channel.QueueDeclare(randomQueueName, true, false, false); // 1 queue to feed all subscribers...Locate upper QueueBind to save permanently
+channel.QueueBind(randomQueueName, "logs-fanout", "", null);
 
 channel.BasicQos(0, 1, false); // false = send x message mean to send messages to every subscriber every turn and divide messages subsscribers count/2 count and share them
 var consumer = new EventingBasicConsumer(channel);
-channel.BasicConsume("hello-queue", false, consumer);
+channel.BasicConsume(randomQueueName, false, consumer);
+
+Console.WriteLine("logs-fanout listen process started");
 
 consumer.Received += (object sender, BasicDeliverEventArgs e) =>
 {
