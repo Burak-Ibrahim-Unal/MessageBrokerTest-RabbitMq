@@ -20,6 +20,7 @@ headers.Add("shape", "a4");
 
 var basicProperties = channel.CreateBasicProperties();
 basicProperties.Headers = headers;
+basicProperties.Persistent = true; // for permanent messages...Not delete
 
 channel.BasicPublish("header-exchange", string.Empty, basicProperties, Encoding.UTF8.GetBytes("headers message"));
 
