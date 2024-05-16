@@ -1,6 +1,9 @@
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.exe
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.dll
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.deps.json
+C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.runtimeconfig.json
+C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.pdb
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\HelloRabbitMq.Publisher.csproj.AssemblyReference.cache
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\HelloRabbitMq.Publisher.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\HelloRabbitMq.Publisher.AssemblyInfoInputs.cache
@@ -11,8 +14,5 @@ C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabb
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\HelloRabbitMq.Publisher.dll
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\refint\HelloRabbitMq.Publisher.dll
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\HelloRabbitMq.Publisher.pdb
-C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.deps.json
-C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.runtimeconfig.json
-C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\bin\Debug\net8.0\HelloRabbitMq.Publisher.pdb
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\HelloRabbitMq.Publisher.genruntimeconfig.cache
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Publisher\obj\Debug\net8.0\ref\HelloRabbitMq.Publisher.dll
