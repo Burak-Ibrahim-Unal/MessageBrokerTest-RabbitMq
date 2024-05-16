@@ -1,0 +1,6 @@
+@HelloRabbitMq.Watermark_HostAddress = http://localhost:5028
+
+GET {{HelloRabbitMq.Watermark_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

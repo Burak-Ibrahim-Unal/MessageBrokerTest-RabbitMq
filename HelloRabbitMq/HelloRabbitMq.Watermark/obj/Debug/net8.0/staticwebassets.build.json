@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nOpkjWC7WQuDuE2gfYezGK4e7lJseAriNSwOGHPltdk=",
+  "Source": "HelloRabbitMq.Watermark",
+  "BasePath": "_content/HelloRabbitMq.Watermark",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
