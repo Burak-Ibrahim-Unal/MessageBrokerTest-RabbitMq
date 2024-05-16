@@ -10,13 +10,18 @@ using var connection = factory.CreateConnection();
 
 var channel = connection.CreateModel();
 
-channel.BasicQos(0, 2, false);// false = send x message mean to send messages to every subscriber every turn and divide messages subsscribers count/2 count and share them
+channel.BasicQos(0, 1, false);// false = send x message mean to send messages to every subscriber every turn and divide messages subsscribers count/2 count and share them
 var consumer = new EventingBasicConsumer(channel);
 
-var queueName = "direct-queue-Warning";
+var queueName = channel.QueueDeclare().QueueName;
+var routeKey = "*.Error.*";
+//var routeKey = "*.*.Critical";
+channel.QueueBind(queueName, "logs-topic", routeKey);
+
 channel.BasicConsume(queueName, false, consumer);
 
-Console.WriteLine("logs-direct is listening");
+Console.WriteLine("logs-topic is listening");
+
 
 consumer.Received += (object sender, BasicDeliverEventArgs e) =>
           {
