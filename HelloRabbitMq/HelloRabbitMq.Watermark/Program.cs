@@ -1,9 +1,18 @@
 using HelloRabbitMq.Watermark.Context;
+using HelloRabbitMq.Watermark.Services;
 using Microsoft.EntityFrameworkCore;
+using RabbitMQ.Client;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddSingleton(sp => new ConnectionFactory()
+{
+    Uri = new Uri(builder.Configuration.GetConnectionString("RabbitMq"))
+});
+
+builder.Services.AddSingleton<RabbitMqClientService>();
 
 builder.Services.AddDbContext<AppDbContext>(option =>
 {
