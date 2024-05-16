@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using RabbitMQ.Client;
+using System.Reflection.PortableExecutable;
 using System.Text;
 
 
@@ -11,24 +12,18 @@ using var connection = factory.CreateConnection();
 var channel = connection.CreateModel();
 
 //durable:true = records all messages physically... We dont lose any data if we restart app.AFter messages sent,If there is not ony consumer,messages are lost
-channel.ExchangeDeclare("logs-topic", durable: true, type: ExchangeType.Topic, autoDelete: false);
+channel.ExchangeDeclare("header-exchange", durable: true, type: ExchangeType.Headers);
 
-Enumerable.Range(1, 50).ToList().ForEach(x =>
-            {
-                LogNames log1 = (LogNames)new Random().Next(1, 5);
-                LogNames log2 = (LogNames)new Random().Next(1, 5);
-                LogNames log3 = (LogNames)new Random().Next(1, 5);
+Dictionary<string, object> headers = new Dictionary<string, object>(); // key = string, value = object...We select object bcause of we can send image or any other data.
+headers.Add("format", "pdf");
+headers.Add("shape", "a4");
 
-                var routeKey = $"{log1}.{log2}.{log3}";
-                string message = $"log-type: {log1}-{log2}-{log3}";
-                var messageBody = Encoding.UTF8.GetBytes(message);
+var basicProperties = channel.CreateBasicProperties();
+basicProperties.Headers = headers;
 
-                channel.BasicPublish("logs-topic", routeKey, null, messageBody);
+channel.BasicPublish("header-exchange", string.Empty, basicProperties, Encoding.UTF8.GetBytes("headers message"));
 
-                Console.WriteLine($"Log is sent {message}");
-            });
-
-
+Console.WriteLine("Message is sent");
 Console.ReadLine();
 
 public enum LogNames
