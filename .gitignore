@@ -21,3 +21,7 @@ HelloRabbitMq/.vs/HelloRabbitMq/FileContentIndex/9feea289-c412-4d6a-9256-9909f89
 /HelloRabbitMq/HelloRabbitMq.Subscriber/bin/Debug/net8.0/HelloRabbitMq.Subscriber.exe
 /HelloRabbitMq/HelloRabbitMq.Subscriber/bin/Debug/net8.0/Shared.dll
 /HelloRabbitMq/HelloRabbitMq.Subscriber/bin/Debug/net8.0/Shared.pdb
+*.config
+*.json
+/HelloRabbitMq/.vs
+/HelloRabbitMq/.vs/HelloRabbitMq

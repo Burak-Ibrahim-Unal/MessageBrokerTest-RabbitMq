@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F99D03E7-00F8-4F37-AAE1-AF54BDBC57D8}|HelloRabbitMq.Publisher\\HelloRabbitMq.Publisher.csproj|c:\\users\\burak\\desktop\\github\\messagebrokertest-rabbitmq\\hellorabbitmq\\hellorabbitmq.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F99D03E7-00F8-4F37-AAE1-AF54BDBC57D8}|HelloRabbitMq.Publisher\\HelloRabbitMq.Publisher.csproj|solutionrelative:hellorabbitmq.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39B3C25D-6DEE-44AE-8CCC-0EB5D5D65C14}|HelloRabbitMq.Watermark\\HelloRabbitMq.Watermark.csproj|c:\\users\\burak\\desktop\\github\\messagebrokertest-rabbitmq\\hellorabbitmq\\hellorabbitmq.watermark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B3C25D-6DEE-44AE-8CCC-0EB5D5D65C14}|HelloRabbitMq.Watermark\\HelloRabbitMq.Watermark.csproj|solutionrelative:hellorabbitmq.watermark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64AB715B-0759-4A58-828F-6A6CAB0EA678}|HelloRabbitMq.Subscriber\\HelloRabbitMq.Subscriber.csproj|c:\\users\\burak\\desktop\\github\\messagebrokertest-rabbitmq\\hellorabbitmq\\hellorabbitmq.subscriber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64AB715B-0759-4A58-828F-6A6CAB0EA678}|HelloRabbitMq.Subscriber\\HelloRabbitMq.Subscriber.csproj|solutionrelative:hellorabbitmq.subscriber\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39B3C25D-6DEE-44AE-8CCC-0EB5D5D65C14}|HelloRabbitMq.Watermark\\HelloRabbitMq.Watermark.csproj|c:\\users\\burak\\desktop\\github\\messagebrokertest-rabbitmq\\hellorabbitmq\\hellorabbitmq.watermark\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B3C25D-6DEE-44AE-8CCC-0EB5D5D65C14}|HelloRabbitMq.Watermark\\HelloRabbitMq.Watermark.csproj|solutionrelative:hellorabbitmq.watermark\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39B3C25D-6DEE-44AE-8CCC-0EB5D5D65C14}|HelloRabbitMq.Watermark\\HelloRabbitMq.Watermark.csproj|c:\\users\\burak\\desktop\\github\\messagebrokertest-rabbitmq\\hellorabbitmq\\hellorabbitmq.watermark\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39B3C25D-6DEE-44AE-8CCC-0EB5D5D65C14}|HelloRabbitMq.Watermark\\HelloRabbitMq.Watermark.csproj|solutionrelative:hellorabbitmq.watermark\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\Program.cs",
-              "RelativeDocumentMoniker": "HelloRabbitMq.Subscriber\\Program.cs",
-              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\Program.cs",
-              "RelativeToolTip": "HelloRabbitMq.Subscriber\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:51:14.294Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Publisher\\Program.cs",
-              "RelativeDocumentMoniker": "HelloRabbitMq.Publisher\\Program.cs",
-              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Publisher\\Program.cs",
-              "RelativeToolTip": "HelloRabbitMq.Publisher\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAcAAAA",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\Program.cs",
+              "RelativeDocumentMoniker": "HelloRabbitMq.Watermark\\Program.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\Program.cs*",
+              "RelativeToolTip": "HelloRabbitMq.Watermark\\Program.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T08:47:57.612Z",
+              "WhenOpened": "2024-05-16T13:43:09.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "HelloRabbitMq.Watermark\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "HelloRabbitMq.Watermark\\Context\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T13:42:08.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "HelloRabbitMq.Watermark\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\Models\\Product.cs",
+              "RelativeToolTip": "HelloRabbitMq.Watermark\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T13:39:29.49Z",
               "EditorCaption": ""
             }
           ]
