@@ -13,6 +13,7 @@ builder.Services.AddSingleton(sp => new ConnectionFactory()
 });
 
 builder.Services.AddSingleton<RabbitMqClientService>();
+builder.Services.AddSingleton<RabbitMqPublisher>();
 
 builder.Services.AddDbContext<AppDbContext>(option =>
 {

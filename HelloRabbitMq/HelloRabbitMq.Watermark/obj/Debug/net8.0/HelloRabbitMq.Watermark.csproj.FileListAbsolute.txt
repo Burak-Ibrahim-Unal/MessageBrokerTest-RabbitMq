@@ -229,3 +229,4 @@ C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabb
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Watermark\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Watermark\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Watermark\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Burak\Desktop\Github\MessageBrokerTest-RabbitMq\HelloRabbitMq\HelloRabbitMq.Watermark\bin\Debug\net8.0\HelloRabbitMq.Watermark.staticwebassets.runtime.json

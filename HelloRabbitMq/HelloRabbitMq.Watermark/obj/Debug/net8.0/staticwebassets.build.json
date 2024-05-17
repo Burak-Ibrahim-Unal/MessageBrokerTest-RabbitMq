@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "nOpkjWC7WQuDuE2gfYezGK4e7lJseAriNSwOGHPltdk=",
+  "Hash": "HC6dHoHUKN7KpEsBY4RcgCcDgygTPkBLVFW2JBXpxHo=",
   "Source": "HelloRabbitMq.Watermark",
   "BasePath": "_content/HelloRabbitMq.Watermark",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "HelloRabbitMq.Watermark\\wwwroot",
+      "Source": "HelloRabbitMq.Watermark",
+      "ContentRoot": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Watermark\\wwwroot\\",
+      "BasePath": "_content/HelloRabbitMq.Watermark",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

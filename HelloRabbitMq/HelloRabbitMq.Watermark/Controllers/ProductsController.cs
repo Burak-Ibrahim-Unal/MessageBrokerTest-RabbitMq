@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HelloRabbitMq.Watermark.Context;
 using HelloRabbitMq.Watermark.Models;
+using HelloRabbitMq.Watermark.Services;
 
 namespace HelloRabbitMq.Watermark.Controllers
 {
@@ -15,10 +16,12 @@ namespace HelloRabbitMq.Watermark.Controllers
     public class ProductsController : ControllerBase
     {
         private readonly AppDbContext _context;
+        private readonly RabbitMqPublisher _rabbitMqPublisher;
 
-        public ProductsController(AppDbContext context)
+        public ProductsController(AppDbContext context, RabbitMqPublisher rabbitMqPublisher)
         {
             _context = context;
+            _rabbitMqPublisher = rabbitMqPublisher;
         }
 
         // GET: api/Products
@@ -76,8 +79,20 @@ namespace HelloRabbitMq.Watermark.Controllers
         // POST: api/Products
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Product>> PostProduct(Product product)
+        public async Task<ActionResult<Product>> PostProduct(Product product, IFormFile formFile)
         {
+            if (formFile is { Length: > 0 })
+            {
+                var randomImageName = Guid.NewGuid() + Path.GetExtension(formFile.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", randomImageName);
+                await using FileStream stream = new(path: path, mode: FileMode.Create);
+
+                await formFile.CopyToAsync(stream);
+                _rabbitMqPublisher.Publish(new ProductImageCreatedEvent() { ImageName = randomImageName });
+
+                product.ImageName = randomImageName;
+            }
+
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
 

@@ -17,7 +17,6 @@ namespace HelloRabbitMq.Watermark.Services
         {
             _connectionFactory = new ConnectionFactory();
             _logger = logger;
-            Connect();
         }
 
         public IModel Connect()
