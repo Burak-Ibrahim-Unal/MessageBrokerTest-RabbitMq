@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IQ6tZoiV+zaef1QlTTXuiwDzw+J1EB+jJ124T7367e3am5ipTHCJVyBLd+ERBsJN7hJKqTUYdJ4dmJmgxJHsZQ==",
+  "dgSpecHash": "jAji5W4Eq8s=",
   "success": true,
   "projectFilePath": "C:\\Users\\Burak\\Desktop\\Github\\MessageBrokerTest-RabbitMq\\HelloRabbitMq\\HelloRabbitMq.Subscriber\\HelloRabbitMq.Subscriber.csproj",
   "expectedPackageFiles": [
