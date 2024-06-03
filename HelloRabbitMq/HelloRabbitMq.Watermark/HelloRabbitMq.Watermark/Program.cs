@@ -1,3 +1,4 @@
+using HelloRabbitMq.Watermark.BackgroundServices;
 using HelloRabbitMq.Watermark.Models;
 using HelloRabbitMq.Watermark.Services;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 });
 
-//builder.Services.AddHostedService<ImageWatermarkProcessBackgroundService>();
+builder.Services.AddHostedService<ImageWatermarkProcessBackgroundService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
