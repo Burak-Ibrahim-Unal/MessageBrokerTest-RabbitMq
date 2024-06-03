@@ -541,3 +541,9 @@ HelloRabbitMq/HelloRabbitMq.Publisher/obj/Debug/net8.0/HelloRabbitMq.Publisher.A
 HelloRabbitMq/HelloRabbitMq.Publisher/obj/Debug/net8.0/apphost.exe
 HelloRabbitMq/HelloRabbitMq.Publisher/bin/Debug/net8.0/HelloRabbitMq.Publisher.pdb
 HelloRabbitMq/HelloRabbitMq.Publisher/bin/Debug/net8.0/HelloRabbitMq.Publisher.exe
+HelloRabbitMq/HelloRabbitMq.Watermark/HelloRabbitMq.Watermark/bin/Debug/net8.0/RabbitMQ.Client.dll
+HelloRabbitMq/HelloRabbitMq.Watermark/HelloRabbitMq.Watermark/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+HelloRabbitMq/HelloRabbitMq.Watermark/HelloRabbitMq.Watermark/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+HelloRabbitMq/HelloRabbitMq.Watermark/HelloRabbitMq.Watermark/bin/Debug/net8.0/HelloRabbitMq.Watermark.pdb
+HelloRabbitMq/HelloRabbitMq.Watermark/HelloRabbitMq.Watermark/bin/Debug/net8.0/HelloRabbitMq.Watermark.exe
+HelloRabbitMq/HelloRabbitMq.Watermark/HelloRabbitMq.Watermark/bin/Debug/net8.0/HelloRabbitMq.Watermark.dll
